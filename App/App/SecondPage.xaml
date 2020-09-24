@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PageNavigation.SecondPage" Title="Second Page">
+    <StackLayout BackgroundColor="White" Padding="60" VerticalOptions="CenterAndExpand">
+        <Slider x:Name="MySlider" Minimum="0" Maximum ="12"/>
+        <Label x:Name="MyLabel" Text="N" HorizontalOptions="Center"/>
+        <Label x:Name="MyLabel2" Text="Fibonacci" HorizontalOptions="CenterAndExpand"/>
+
+    </StackLayout>
+</ContentPage>  
